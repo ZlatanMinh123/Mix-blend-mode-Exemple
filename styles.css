@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.box {
+  position: relative;
+  width: 406px;
+  height: 306px;
+  border: 3px dotted #333;
+  margin: 0 auto;
+}
+
+.resutl {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  background: orange;
+  mix-blend-mode: difference;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #A174FF;
+  margin-left: 50px;
+}
